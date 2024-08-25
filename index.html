@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento en general y hogar - Antonio Mangone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mantenimiento en general y hogar</h1>
+            <p>Profesionalismo, experiencia y confianza para tu hogar.</p>
+        </div>
+    </header>
+
+    <section id="servicios">
+        <div class="container">
+            <h2>Servicios</h2>
+            <ul class="service-list">
+                <li class="service-item">
+                    <h3>Herrería</h3>
+                    <p>Trabajo en hierro y acero para refuerzos y diseños únicos.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Herrería')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Pintura</h3>
+                    <p>Revestimientos interiores y exteriores para todo tipo de superficies.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Pintura')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Cerramientos</h3>
+                    <p>Soluciones para espacios abiertos con estructuras resistentes.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Cerramientos')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Zinguería</h3>
+                    <p>Instalación de canaletas y sistemas de drenaje eficientes.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Zinguería')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Durlock</h3>
+                    <p>Divisiones y cielorrasos con terminaciones perfectas.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Durlock')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Aire acondicionado</h3>
+                    <p>Instalación, reparación y mantenimiento de equipos de climatización.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Aire acondicionado')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Plomería</h3>
+                    <p>Instalación y reparación de cañerías y sanitarios.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Plomería')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Refacciones en general</h3>
+                    <p>Mejoras y reparaciones para todo tipo de estructuras.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Refacciones en general')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Electricidad</h3>
+                    <p>Instalaciones eléctricas seguras y certificadas.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Electricidad')">Ver más</button>
+                </li>
+                <li class="service-item">
+                    <h3>Reparación de cortinas plásticas</h3>
+                    <p>Mantenimiento y reparación de cortinas enrollables.</p>
+                    <button class="btn-mas" onclick="redirigirWhatsApp('Reparación de cortinas plásticas')">Ver más</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <p class="contacto-info">
+                <strong>Antonio Mangone</strong> | 
+                Tel: <a href="https://wa.me/5491138275970" target="_blank">11-3827-5970</a> | 
+                IG: <a href="https://www.instagram.com/renovatedeco.ok" target="_blank">@renovatedeco.ok</a>
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Antonio Mangone | Mantenimiento en general y hogar</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot -->
+    <div id="chatbot-container">
+        <div id="chatbot-header">Ayuda en Línea</div>
+        <div id="chatbot-messages"></div>
+        <input type="text" id="chatbot-input" placeholder="Escribe tu mensaje...">
+    </div>
+    <button id="chatbot-toggle">Chat de Ayuda</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
